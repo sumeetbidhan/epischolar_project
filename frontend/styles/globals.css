@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.solar-system {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+}
+
+.center-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: -75px;
+    margin-left: -75px;
+    background: radial-gradient(circle, rgb(248, 247, 247) 40%, rgb(241, 161, 238) 100%);
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(51, 5, 131);
+    overflow: hidden; /* Add this to prevent content from overflowing */
+}
+
+.center-circle h2 {
+    font-size: 12px; /* Adjust font size to fit content */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.center-circle ul {
+    list-style: disc inside;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 8px; /* Adjust font size to fit content */
+}
+
+.orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border: 1px dashed rgb(113, 113, 239);
+    border-radius: 50%;
+    animation: rotate 90s infinite linear;
+}
+
+.orbit-1 {
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    animation-duration: 90s;
+}
+
+.orbit-2 {
+    width: 600px;
+    height: 600px;
+    margin-top: -300px;
+    margin-left: -300px;
+    animation-duration: 120s;
+}
+
+.orbit-3 {
+    width: 800px;
+    height: 800px;
+    margin-top: -400px;
+    margin-left: -400px;
+    animation-duration: 150s;
+}
+
+.circle {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: radial-gradient(circle, rgb(248, 247, 247) 40%, rgb(241, 161, 238) 100%);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(51, 5, 131);
+    overflow: hidden; /* Add this to prevent content from overflowing */
+}
+
+.circle h3 {
+    font-size: 10px; /* Adjust font size to fit content */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.circle ul {
+    list-style: disc inside;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 8px; /* Adjust font size to fit content */
+}
+
+.orbit-1 .circle:nth-child(1) { transform: rotate(0deg) translate(200px) rotate(0deg); }
+.orbit-1 .circle:nth-child(2) { transform: rotate(90deg) translate(200px) rotate(90deg); }
+.orbit-1 .circle:nth-child(3) { transform: rotate(180deg) translate(200px) rotate(180deg); }
+.orbit-1 .circle:nth-child(4) { transform: rotate(270deg) translate(200px) rotate(270deg); }
+
+.orbit-2 .circle:nth-child(1) { transform: rotate(45deg) translate(300px) rotate(45deg); }
+.orbit-2 .circle:nth-child(2) { transform: rotate(135deg) translate(300px) rotate(135deg); }
+.orbit-2 .circle:nth-child(3) { transform: rotate(225deg) translate(300px) rotate(225deg); }
+.orbit-2 .circle:nth-child(4) { transform: rotate(315deg) translate(300px) rotate(315deg); }
+
+.orbit-3 .circle:nth-child(1) { transform: rotate(0deg) translate(400px) rotate(0deg); }
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
