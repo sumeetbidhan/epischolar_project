@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom styles */
 .solar-system {
     position: relative;
     width: 1000px;
