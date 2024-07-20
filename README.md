@@ -1,4 +1,4 @@
-# EpiScholar SDE Intern Assignment
+# EpiScholar SDE Project
 
 ## Description
 
