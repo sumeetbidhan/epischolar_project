@@ -73,7 +73,7 @@ This project is a "Featured Component" that displays row data extracted from an 
 - **Backend:** Node.js, Express.js
 - **Frontend:** Next.js, React, Tailwind CSS
 - **Data Extraction:** Python, Pandas
-- **Hosting:** Netlify
+- **Hosting:** Vercel
 
 ## Contributing
 
