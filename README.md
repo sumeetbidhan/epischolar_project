@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a "Featured Component" that displays row data extracted from an Excel file. The project involves both backend and frontend tasks, including data extraction, API creation, and frontend implementation. The project is deployed on Netlify and can be reviewed through the provided deployment and GitHub links.
+This project is a "Featured Component" that displays row data extracted from an Excel file. The project involves both backend and frontend tasks, including data extraction, API creation, and frontend implementation. The project is deployed on Vercel and can be reviewed through the provided deployment and GitHub links.
 
 ## Table of Contents
 
@@ -61,7 +61,7 @@ This project is a "Featured Component" that displays row data extracted from an 
 
 ## Hosting
 
-- Deployment Link: [Your Deployment Link Here](#)
+- Deployment Link: [https://epischolar-project.vercel.app/](#)
 - GitHub Repository: [https://github.com/sumeetbidhan/epischolar_project](#)
 
 ## Screenshots
